@@ -332,7 +332,8 @@ img {
 
 @media (min-width: 768px) {
   .skills-grid {
-    grid-template-columns: repeat(10, 1fr); /* Display up to 7 skills per row */
+    grid-template-columns: repeat(10, 1fr);
+    /* Display up to 7 skills per row */
   }
 }
 
@@ -610,14 +611,20 @@ img {
 .card {
   border-radius: 25px;
   background-color: #FFF;
-  height: 400px; /* Set a fixed height for all cards */
+  height: 400px;
+  /* Set a fixed height for all cards */
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Ensure space is distributed evenly */
-  overflow: hidden; /* Hide overflow */
-  position: relative; /* For positioning the read more button */
-  padding: 10px; /* Padding inside card */
-  z-index: 1; /* Ensure the card content is on top */
+  justify-content: space-between;
+  /* Ensure space is distributed evenly */
+  overflow: hidden;
+  /* Hide overflow */
+  position: relative;
+  /* For positioning the read more button */
+  padding: 10px;
+  /* Padding inside card */
+  z-index: 1;
+  /* Ensure the card content is on top */
 }
 
 .image-content,
@@ -631,7 +638,8 @@ img {
   position: relative;
   row-gap: 5px;
   padding: 25px 0;
-  justify-content: center; /* Center content vertically */
+  justify-content: center;
+  /* Center content vertically */
 }
 
 .overlay {
@@ -641,8 +649,10 @@ img {
   height: 100%;
   width: 100%;
   background-color: #00A19C;
-  border-radius: 25px 25px 0 0; /* Changed bottom right radius to 0 */
-  z-index: -1; /* Ensure overlay is behind the content */
+  border-radius: 25px 25px 0 0;
+  /* Changed bottom right radius to 0 */
+  z-index: -1;
+  /* Ensure overlay is behind the content */
 }
 
 .overlay::before,
@@ -668,7 +678,8 @@ img {
   border-radius: 50%;
   background: #FFF;
   padding: 3px;
-  z-index: 2; /* Ensure image is on top */
+  z-index: 2;
+  /* Ensure image is on top */
 }
 
 .card-image .card-img {
@@ -689,13 +700,15 @@ img {
   font-size: 14px;
   color: #707070;
   text-align: center;
-  max-height: 60px; /* Set a max height for the description */
+  max-height: 60px;
+  /* Set a max height for the description */
   overflow: hidden;
   transition: max-height 0.3s ease;
 }
 
 .description.expanded {
-  max-height: none; /* Allow the description to expand fully */
+  max-height: none;
+  /* Allow the description to expand fully */
 }
 
 .read-more {
@@ -704,7 +717,8 @@ img {
   cursor: pointer;
   font-size: 14px;
   text-align: center;
-  margin: 10px 0; /* Add margin to position it properly */
+  margin: 10px 0;
+  /* Add margin to position it properly */
 }
 
 .button {
@@ -764,7 +778,3 @@ img {
     display: none;
   }
 }
-
-
-
-

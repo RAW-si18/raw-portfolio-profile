@@ -83,11 +83,11 @@ var swiper = new Swiper(".slide-content", {
     },
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const readMoreButtons = document.querySelectorAll('.read-more');
 
     readMoreButtons.forEach(button => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function () {
             const description = this.previousElementSibling;
             description.classList.toggle('expanded');
 
